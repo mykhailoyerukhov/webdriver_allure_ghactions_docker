@@ -1,0 +1,22 @@
+{
+  "name": "telnyx_testing",
+  "type": "module",
+  "scripts": {
+    "test": "wdio run ./wdio.conf.ts",
+    "test:file": "wdio run ./wdio.conf.ts --spec spec.ts",
+    "allure-generate": "allure generate ./allure-results --clean",
+    "allure-open": "allure open",
+    "test:chrome": "wdio run ./wdio.conf.ts --browser chrome",
+    "test:firefox": "wdio run ./wdio.conf.ts --browser firefox"
+  },
+  "devDependencies": {
+    "@wdio/allure-reporter": "^9.2.14",
+    "@wdio/cli": "^9.4.1",
+    "@wdio/local-runner": "^9.4.1",
+    "@wdio/mocha-framework": "^9.2.8",
+    "@wdio/types": "^9.4.2",
+    "@wdio/visual-service": "^6.2.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}

@@ -22,9 +22,6 @@ jobs:
     - name: Install dependencies
       run: npm ci
 
-    - name: Install Webdriver.io
-      run: npm init wdio . -- --yes
-
     - name: Install Chromium
       run: sudo apt-get install -y chromium-browser
 

@@ -6,8 +6,8 @@
     "test:file": "wdio run ./wdio.conf.ts --spec spec.ts",
     "allure-generate": "allure generate ./allure-results --clean",
     "allure-open": "allure open",
-     "clean:allure-windows": "rmdir /s /q allure-results && rmdir /s /q allure-report",
-     "clean:allure": "rm -rf allure-results allure-report || true",
+    "clean:allure-windows": "rmdir /s /q allure-results && rmdir /s /q allure-report",
+    "clean:allure": "rm -rf allure-results allure-report || true",
     "test:chrome": "wdio run ./wdio.conf.ts --browser chrome",
     "test:firefox": "wdio run ./wdio.conf.ts -- --browser-name=firefox",
     "deploy:local": "npx gh-pages -d allure-report"
@@ -20,6 +20,7 @@
     "@wdio/types": "^9.4.2",
     "@wdio/visual-service": "^6.2.4",
     "ts-node": "^10.9.2",
-    "typescript": "^5.7.2"
+    "typescript": "^5.7.2",
+    "wdio-chromedriver-service": "^8.1.1"
   }
 }

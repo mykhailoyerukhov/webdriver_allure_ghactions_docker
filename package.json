@@ -19,8 +19,8 @@
     "@wdio/mocha-framework": "^9.2.8",
     "@wdio/types": "^9.4.2",
     "@wdio/visual-service": "^6.2.4",
+    "expect-webdriverio": "^5.0.5",
     "ts-node": "^10.9.2",
-    "typescript": "^5.7.2",
-    "wdio-chromedriver-service": "^8.1.1"
+    "typescript": "^5.7.2"
   }
 }
